@@ -11,7 +11,6 @@ contract = web3.eth.contract(address=contract_address, abi=[{"inputs":[],"name":
 b_wallet_address_checksum = web3.to_checksum_address(b_wallet_address)
 
 def can_cat_play(cat_id):
-    """检查指定猫咪是否可以进行playdate"""
     return contract.functions.canPlay(cat_id).call()
 
 def accept_invite(cat_id, inviter_id, nonce):
