@@ -15,7 +15,7 @@
 3. 缺什麼套件裝什麼套件，詳情自行 Google pip or pip3 install
 4. 裝完套件後直接開跑，等級上限其實超級遠，無腦放著跑就行
 
-- $python3 Smartlayer_A.py
+`$python3 Smartlayer_A.py`
 - $python3 Smartlayer_B.py
 - $python3 inviteCat.py
 - $python3 acceptInvite.py
@@ -28,6 +28,8 @@
 - Smartlayer_B.py : B 帳號的貓咪 Feed、Clean、LevelUp 動作
 - inviteCat.py : A 帳號的貓咪邀請 B 帳號的貓咪約會
 - acceptInvite.py : B 帳號的貓咪接受 A 帳號的貓咪約會
+
+---
 
 ### 備註
 
