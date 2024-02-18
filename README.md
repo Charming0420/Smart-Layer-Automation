@@ -15,6 +15,9 @@
 3. 缺什麼套件裝什麼套件，詳情自行 Google pip or pip3 install
 4. 裝完套件後直接開跑，等級上限其實超級遠，無腦放著跑就行
 
+```cmd
+$python3 Smartlayer_A.py
+```
 `$python3 Smartlayer_A.py`
 - $python3 Smartlayer_B.py
 - $python3 inviteCat.py
