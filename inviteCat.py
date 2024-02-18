@@ -12,7 +12,6 @@ contract = web3.eth.contract(address=contract_address, abi=[{"inputs":[],"name":
 current_nonce = web3.eth.get_transaction_count(my_wallet_address)
 
 def can_cat_play(cat_id):
-    """检查指定猫咪是否可以进行playdate"""
     return contract.functions.canPlay(cat_id).call()
 
 def send_invite(inviter_wallet_address, inviter_private_key, invitee_cat_id, inviter_cat_id, nonce):
